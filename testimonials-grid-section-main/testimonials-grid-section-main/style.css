@@ -1,0 +1,86 @@
+body{
+    min-height: 100vh; 
+    justify-content: center; 
+    
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+.information{
+    display: flex;
+    flex-direction: row
+    
+}
+
+.information-text{
+    margin-left: 10px;
+    margin-top: -30px;
+}
+.first-card{
+    background-color: hsl(263, 55%, 52%);
+    padding: 20px;
+}
+.second-card{
+    background-color: hsl(217, 19%, 35%);
+    padding: 20px;
+}
+.third-card{
+    background-color: white;
+    padding: 20px;
+}
+.fourth-card{
+    background-color: hsl(219, 29%, 14%);
+    padding: 20px;
+}
+.fifth-card{
+    background-color: white;
+    padding: 20px;
+}
+.tw{
+    color: aliceblue
+}
+@media screen and (min-width: 1440px) {
+   .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    
+   }
+   .first-half{
+    display: flex;
+    flex-direction:column
+    
+   }
+   .first, .second{
+    display: flex;
+    flex-direction: row;
+   }
+   .first-card{
+    width: 560px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+   }
+   .second-card{
+    width: 240px;
+    margin-bottom: 20px;
+   
+   }
+   .third-card{
+    width: 240px;
+    margin-right: 20px;
+    
+   }
+   .fourth-card{
+    width: 560px;
+    
+   }
+   .fifth-card{
+    margin-left: 20px;
+    height: 750px;
+    width: 240px;
+   }
+
+
+}
