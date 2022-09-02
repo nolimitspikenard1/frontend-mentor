@@ -1,0 +1,81 @@
+.top{
+    text-align: center;
+}
+.container{
+    margin-top: 100px;
+}
+.ios, .Mac{
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0px;
+    color: white;
+}
+.ios{
+    background-color: hsl(171, 66%, 44%);
+}
+.Mac{
+    background-color: hsl(233, 100%, 69%);
+}
+.mid{
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
+    padding: 60px;
+}
+.mid-img{
+    width: 500px;
+}
+.mid-text{
+    margin-left: 100px;
+}
+.mid-two{
+    text-align: center;
+}
+.mid-cards{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 40px;
+}
+.mid-card-one, .mid-card-two, .mid-card-three{
+    padding-left: 30px;
+    height: 300px;
+    width: 700px;  
+}
+.mid-mid{
+    text-align: center;
+}
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -70px;
+    
+}
+.logo-one, .logo-two, .logo-three, .logo-four, .logo-five{
+    margin-left: 80px;
+}
+.down{
+    text-align: center;
+}
+.the-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.end-list{
+    display: flex;
+    flex-direction: row;
+}
+.end-socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    display: inline;
+    padding: 40px;
+    margin-top: 10px;
+}
