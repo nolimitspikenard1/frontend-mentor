@@ -19,22 +19,27 @@ body{
 .first-card{
     background-color: hsl(263, 55%, 52%);
     padding: 20px;
+    border-radius: 10px;
 }
 .second-card{
     background-color: hsl(217, 19%, 35%);
     padding: 20px;
+    border-radius: 10px;
 }
 .third-card{
     background-color: white;
     padding: 20px;
+    border-radius: 10px;
 }
 .fourth-card{
     background-color: hsl(219, 29%, 14%);
     padding: 20px;
+    border-radius: 10px;
 }
 .fifth-card{
     background-color: white;
     padding: 20px;
+    border-radius: 10px;
 }
 .tw{
     color: aliceblue
@@ -83,4 +88,40 @@ body{
    }
 
 
+}
+@media screen and (max-width: 375px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .first-card{
+        width: 375px;
+        margin-bottom: 20px;
+        height: 550px;
+        
+        
+       }
+       .second-card{
+        width: 375px;
+        margin-bottom: 20px;
+        height: 375px;
+       
+       }
+       .third-card{
+        width: 375px;
+        margin-bottom: 20px;
+        height: 375px;
+        
+       }
+       .fourth-card{
+        width: 375px;
+        margin-bottom: 20px;
+        height: 550px;
+       }
+       .fifth-card{
+        margin-bottom: 20px;
+        height: 550px;
+        width: 375px;
+       }
 }
