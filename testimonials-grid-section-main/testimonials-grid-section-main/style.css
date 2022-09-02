@@ -96,32 +96,32 @@ body{
         padding: 20px;
     }
     .first-card{
-        width: 375px;
+        width: 300px;
         margin-bottom: 20px;
         height: 550px;
         
         
        }
        .second-card{
-        width: 375px;
+        width: 300px;
         margin-bottom: 20px;
         height: 375px;
        
        }
        .third-card{
-        width: 375px;
+        width: 300px;
         margin-bottom: 20px;
         height: 375px;
         
        }
        .fourth-card{
-        width: 375px;
+        width: 300px;
         margin-bottom: 20px;
         height: 550px;
        }
        .fifth-card{
         margin-bottom: 20px;
         height: 550px;
-        width: 375px;
+        width: 300px;
        }
 }
