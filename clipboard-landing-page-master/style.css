@@ -1,12 +1,29 @@
+
+body{
+    font-family:'Bai Jamjuree', sans-serif;
+}
+
+.buttom{
+    margin-top: 100px;
+    
+    
+}
+p{
+    color: hsl(212, 45%, 89%);
+    font-weight:  bolder;
+}
 .top{
     text-align: center;
+}
+.mid{
+    margin-right: 70px;
 }
 .container{
     margin-top: 100px;
 }
 .ios, .Mac{
     width: 160px;
-    height: 40px;
+    height: 60px;
     border-radius: 30px;
     border: 0px;
     color: white;
@@ -29,15 +46,20 @@
 .mid-text{
     margin-left: 100px;
 }
-.mid-two{
-    text-align: center;
+
+@media screen and (min-width: 1440px) {
+    .mid-two{
+        text-align: center;
+    }
+    .mid-cards{
+        display: flex;
+        flex-direction: row;
+        
+        padding: 40px;
+    }
 }
-.mid-cards{
-    display: flex;
-    flex-direction: row;
-    
-    padding: 40px;
-}
+
+
 .mid-card-one, .mid-card-two, .mid-card-three{
     padding-left: 30px;
     height: 300px;
@@ -63,19 +85,104 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 50px;
     
 }
 .end-list{
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 .end-socials{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    margin-top: 20px;   
+}
+.facebook, .twitter, .instagram{
+    margin-right: 10px;
+}
+.end-logo{
+    width: 50px;
+    margin-top: 20px;
 }
 li{
     display: inline;
     padding: 40px;
     margin-top: 10px;
+}
+footer{
+    background-color: hsl(212, 45%, 89%);
+
+}
+@media screen and (max-width: 533px) {
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .ios, .Mac{
+        width: 340px;
+        margin-top: 20px;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        padding: 10px;
+    }
+    .mid-img{
+        width: 340px;
+    }
+    .mid-text{
+        width: 340px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .mid-two-image{
+        margin-left: 0px;
+        width: 340px;
+        text-align: center;
+    }
+    .mid-cards{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px; 
+        width: 340px;
+    }
+    .mid-two{
+        width: 340px;
+    }
+    .mid-two-text{
+        text-align: center;
+    }
+    .mid-card-one, .mid-card-two, .mid-card-three{
+        
+        width: 340px;
+        height: 150px; 
+    }
+    }
+    .logos{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-one, .logo-two, .logo-three, .logo-four, .logo-five{
+        width: 340px;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .the-end{
+        display: block;
+        text-align: center;
+        
+    }
+    .end-logo{
+        margin-left: 50px;
+    }
+    .end-socials{
+        margin-left: 70px;
+    }
+    li{
+        display: block;
+        margin-left: 1px;
+    }
+
 }
